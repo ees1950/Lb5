@@ -8,8 +8,6 @@ abstract class Shoes {
         return "This is Shoes class.";
     }
 
-    public Shoes() {
-    }
 
     public Shoes(int weight, int liked, int quality, String color) {
         this.weight = weight;

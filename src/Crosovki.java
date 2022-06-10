@@ -11,7 +11,7 @@ public abstract class Crosovki extends Shoes {
         return size;
     }
 
-    public void setSize(int maxFlightAltitude) {
+    public void setSize(int size) {
         this.size = size;
     }
 
@@ -19,7 +19,7 @@ public abstract class Crosovki extends Shoes {
         return gender;
     }
 
-    public void getGender(int maxFlightDistance) {
+    public void getGender(int gender) {
         this.gender = gender;
     }
 
@@ -29,6 +29,5 @@ public abstract class Crosovki extends Shoes {
         this.gender = gender;
     }
 
-    public Crosovki() {
-    }
+
 }
