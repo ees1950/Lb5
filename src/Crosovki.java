@@ -28,6 +28,4 @@ public abstract class Crosovki extends Shoes {
         this.size = size;
         this.gender = gender;
     }
-
-
 }

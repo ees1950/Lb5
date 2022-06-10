@@ -12,7 +12,7 @@ public class CrosovkiFactory {
                     random.nextInt(10000), random.nextInt(20000), getRandomColor(), getRandomModelName());
 
         } else if (shoesName == ShoesNames.ADIDAS) {
-            return new Adidas(random.nextInt(1000000), random.nextInt(30), random.nextInt(500),
+            return new Adidas(random.nextInt(1000), random.nextInt(30), random.nextInt(500),
                     random.nextInt(10000), random.nextInt(5000), getRandomColor(), random.nextInt(5));
         }
         return null;
